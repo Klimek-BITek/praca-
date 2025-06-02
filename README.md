@@ -1,1 +1,110 @@
-# praca-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jakub Klimek – Freelancer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    header nav a:hover {
+      color: #18bc9c;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      font-weight: 700;
+      color: #2c3e50;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 50px;
+    }
+    a.email-link, a.fiverr-link {
+      color: #18bc9c;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.email-link:hover, a.fiverr-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h1>Jakub Klimek</h1>
+    <p><em>Freelancer – specialist in CV writing, cover letters, and marketing content</em></p>
+    <p>
+      I am an ambitious and organized freelancer who helps clients stand out in the job market. I specialize in creating professional application documents such as CVs, cover letters, and LinkedIn profiles. Using modern tools, including AI, I craft effective and tailored texts that attract recruiters' attention.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>My Services</h2>
+    <ul>
+      <li>Professional CV and resume writing</li>
+      <li>Cover letters</li>
+      <li>LinkedIn profile optimization</li>
+      <li>Product descriptions and marketing texts</li>
+      <li>Engaging social media content creation</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Have questions or want to start working together? Get in touch:</p>
+    <p>Email: <a href="mailto:jakubklimek207@gmail.com" class="email-link">jakubklimek207@gmail.com</a></p>
+    <p>Fiverr Profile: <a href="https://www.fiverr.com/YourProfile" target="_blank" class="fiverr-link">https://www.fiverr.com/YourProfile</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Jakub Klimek – All rights reserved
+  </footer>
+
+</body>
+</html>
